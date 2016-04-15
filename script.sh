@@ -21,16 +21,15 @@ hadoop fs -rmr '/prg/ipout'
 rm static/ip.csv
 pig ip.pig && mv static/ip.csv static/ip_bak.csv
 hadoop fs -getmerge '/prg/ipout' static/ip.csv
-sed -i -e '1iFood by Deliciousness,
-Source: Andrew Parnell,
-Metadata Notes: Things I think are yummy,
-,age,population\' static/ip.csv
+sed -i -e '1iage,population\' static/ip.csv
 cat static/ip.csv | sed 's/,/\t/g' > static/ip.tsv
 
 
+
+
 hadoop fs -rmr '/prg/brout'
-rm static/br.csv
 pig br.pig && mv static/br.csv static/br_bak.csv
+rm static/br.csv
 hadoop fs -getmerge '/prg/brout' static/br.csv
 sed -i -e '1iage,population\' static/br.csv
 cat static/br.csv | sed 's/,/\t/g' > static/br.tsv

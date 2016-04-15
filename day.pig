@@ -11,7 +11,6 @@ C = foreach B generate FLATTEN(
 
 D = group C by date;
 E = foreach D generate group,COUNT(C);
-dump E;
 STORE E INTO '/prg/dayout'
 USING PigStorage(',');
 

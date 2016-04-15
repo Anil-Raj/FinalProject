@@ -1,0 +1,9 @@
+Error before Pig is launched
+----------------------------
+ERROR 101: Local file 'br.pig' does not exist.
+
+org.apache.pig.backend.executionengine.ExecException: ERROR 101: Local file 'br.pig' does not exist.
+	at org.apache.pig.impl.io.FileLocalizer.fetchFile(FileLocalizer.java:750)
+	at org.apache.pig.Main.run(Main.java:474)
+	at org.apache.pig.Main.main(Main.java:107)
+================================================================================
