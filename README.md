@@ -6,8 +6,9 @@ git clone https://github.com/Anil-Raj/FinalProject
 #go to https://github.com/Anil-Raj/FinalProject and download zip
 #extract zip
 #goto extracted folder
-#continue next step
-#after the files are downloaded
+#continue to next step
+
+
 ./init.sh
 python ch002.py
 #go to browser and enter localhost:8090
