@@ -7,6 +7,7 @@ Go to https://github.com/Anil-Raj/FinalProject and download zip and extract it
 change the directory to extracted/cloned directory
 
 ./init.sh
+
 python ch002.py
 
 open localhost:8090 in chrome 
