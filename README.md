@@ -3,7 +3,8 @@ git clone http://github.com/Anil-Raj/FinalProject
 or
  
 Go to https://github.com/Anil-Raj/FinalProject and download zip and extract it
-got to extracted folder
+
+change the directory to extracted/cloned directory
 
 ./init.sh
 python ch002.py
