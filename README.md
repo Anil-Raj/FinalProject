@@ -8,6 +8,8 @@ change the directory to extracted/cloned directory
 
 ./init.sh
 
+install cherrypy by using pip install cherrypy
+
 python ch002.py
 
 open localhost:8090 in chrome 
