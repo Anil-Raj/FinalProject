@@ -1,6 +1,7 @@
 # FinalProject
 git clone http://github.com/Anil-Raj/FinalProject
-or 
+or
+ 
 Go to https://github.com/Anil-Raj/FinalProject and download zip and extract it
 got to extracted folder
 
